@@ -38,6 +38,10 @@ group :development, :test do
   ### TESTING
   ### =========
   gem 'rspec-rails'
+  gem 'rspec-example_steps'
+  gem 'capybara'
+  gem 'selenium-webdriver'
+  gem 'rspec-wait'
 end
 
 group :development do
