@@ -34,6 +34,10 @@ group :development, :test do
   gem 'pry-stack_explorer'
   gem 'pry-byebug'
   gem 'better_errors', '2.1.1'
+
+  ### TESTING
+  ### =========
+  gem 'rspec-rails'
 end
 
 group :development do
